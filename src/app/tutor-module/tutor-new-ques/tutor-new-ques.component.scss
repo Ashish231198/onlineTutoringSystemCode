@@ -6,8 +6,17 @@
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.08);
     margin-bottom: var(--font-size-50);
 }
-.editBtn{
+.rejectBtn{
     padding: 6px 25px;
     margin: 10px 0px;
+    // border: 2px solid yellow;
     border-radius: 25px;
+    // background: #f6a88c;
+}
+.acceptBtn{
+    padding: 6px 25px;
+    margin-left: 10px;
+    // border: 2px solid greenyellow;
+    border-radius: 25px;
+    // background: rgb(13, 253, 45);
 }

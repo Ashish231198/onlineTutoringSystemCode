@@ -374,7 +374,7 @@
                     </div>
                     <!-- <span *ngIf="username.invalid && username.touched" class="text-danger">User Name is required</span> -->
                     <div class="input-group mb-3 mt-4">
-                        <input class="form-control" type="password" placeholder="Password" maxlength="16"
+                        <input class="form-control" type="password" placeholder="Password" maxlength="16" (keyup.enter)="login()"
                             [(ngModel)]="password">
                     </div>
                     <!-- <span class="text-danger" *ngIf="password.invalid && password.touched">Password is required</span> -->

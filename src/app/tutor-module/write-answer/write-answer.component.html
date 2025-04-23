@@ -1,0 +1,47 @@
+<div class="container mt-4 mx-md-4 p-4 max-100vw">
+    <div>
+        <div class="card-body ">
+            <div class="row pl-2">
+                <div class="col-3 ">
+                    <img src="assets/images/writeanswer.png" alt="Third slide" height="400px" width="225px">
+                </div>
+                <div class="col-9">
+                    <div class="col-md-12 col-lg-12 m-1 p-1"
+                        style="background: #EDFDED; border-radius: 0px 0px 150px 150px;">
+                        <h2 class="pb-2 pt-2 mb-2 text-center font-weight-bold text-capitalize">Write Your Answer</h2>
+                    </div>
+                    <div class="col-md-12 col-lg-12">
+                        <div class="input-group">
+                            <textarea class="bg-transparent input-field form-control ansFont rounded"
+                                [(ngModel)]="main.description" rows="9" placeholder="Write your answer..."
+                                style="background-color:antiquewhite;" maxlength="10000"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mt-2 mb-1">
+                        <label class="btn btn-light btn-outline-dark border rounded-pill border-dark file"
+                            for="my-file-selector">
+                            <input id="attachment" class="input-field" type="file" name="attachment"
+                                style="display:none" (change)="handleFileInput($event)" multiple id="my-file-selector"
+                                accept="image/doc,image/png,image/jpg,image/txt,application/pdf,image/jpeg">
+                            <b>Attachment <i class="fa fa-paperclip" aria-hidden="true"></i></b>
+                        </label>
+                        <div *ngIf="main['files'] && main['files'].length > 0">
+                            <div *ngFor="let img of main['files']">
+                                <label class='label label-info' id="upload-file-info">{{img.name ? img.name :
+                                    img.fileName}}
+                                    <span (click)="deleteFiles(img)">
+                                        <i class="fa fa-trash text-danger pointer"></i>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                        <span class='label label-info' id="upload-file-info"></span>
+                        <button class="pull-right rounded-pill"><b><i class="fa fa-cloud-upload mr-2"
+                                    aria-hidden="true"></i>Submit</b>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

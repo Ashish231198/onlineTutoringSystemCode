@@ -13,17 +13,18 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title"><b>Ques : </b> {{ques?.quesDescription}}</h5>
-                    <p class="card-text" (click)="selectedQues = ques"> <b>Ans : </b> {{ques?.answer | slice:0:200}}....
+                    <!-- <p class="card-text" (click)="selectedQues = ques"> <b>Ans : </b> {{ques?.answer | slice:0:200}}....
                         <a class="text-primary pointer" data-bs-toggle="modal" data-bs-target="#exampleModal">Read
-                            More</a> </p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div>
-                                    <a> <b>Student Name : </b> {{ques?.studentName}}</a>
-                                </div>
-                                <div>
-                                    <button class="btn btn-secondary editBtn">Edit Answer</button>
-                                </div>
-                            </div>
+                            More</a> </p> -->
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <a> <b>Student Name : </b> {{ques?.studentName}}</a>
+                        </div>
+                        <div>
+                            <button class="btn btn-warning rejectBtn">Reject</button>
+                            <button class="btn btn-success acceptBtn">Accept</button>
+                        </div>
+                    </div>
                     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
             </div>

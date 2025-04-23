@@ -18,10 +18,10 @@
                         <img src="../../assets/icon/home.png" alt="HomeIcon">
                         <label>Home</label>
                     </div>
-                    <div class="col-12 d-flex menuItem" (click)="tabName='Search';activeNav = false;" routerLink="/user/search" routerLinkActive="active-link">
-                        <img [class.visible]="tabName == 'Search'" src="../../assets/icon/IconsearchBlue.png" alt="HomeIcon">
+                    <div class="col-12 d-flex menuItem" (click)="tabName='New Questions';activeNav = false;" routerLink="new-question" routerLinkActive="active-link">
+                        <img [class.visible]="tabName == 'New Questions'" src="../../assets/icon/IconsearchBlue.png" alt="HomeIcon">
                         <img src="../../assets/icon/IconWhiteSearch.png" alt="SearchIcon">
-                        <label>Search</label>
+                        <label>New Questions</label>
                     </div>
                     <!-- <div class="col-12 d-flex menuItem" (click)="tabName='Post Question';activeNav = false;" routerLink="post-question" routerLinkActive="active-link">
                         <img [class.visible]="tabName == 'Post Question'" src="../../assets/icon/IconlearnBlue.png" alt="HomeIcon">

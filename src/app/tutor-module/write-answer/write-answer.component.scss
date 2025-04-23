@@ -1,0 +1,39 @@
+.container {
+    width: 96%;
+    border-radius: 12px;
+    border-bottom: 1px solid #992E88;
+    background: #FFF;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.08);
+    margin-bottom: var(--font-size-50);
+}
+h2 {
+    font-family: sans-serif;
+}
+
+.input-field:focus {
+    border: 1px solid dodgerblue;
+}
+button{
+    color: white;
+    background-color: #1D1E3C;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+}
+button:hover{
+    color: #1D1E3C;
+    background-color: white;
+}
+
+.file{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+textarea{
+    font-size: 23px;
+}

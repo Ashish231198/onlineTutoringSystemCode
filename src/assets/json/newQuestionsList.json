@@ -1,0 +1,490 @@
+{
+    "jsonName": "newQuestionsList",
+    
+    "questionList": [
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "Explain Components, Modules and Services in Angular?",
+            "quesId": "ques0037",
+            "quesDate": "02/01/2025",
+            "studentId": "student001",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "In what ways is the Buddhist theory of a social contract different from the Brahmanical view of society derived from the Purusha sukta?",
+            "quesId": "ques0038",
+            "quesDate": "23/01/2025",
+            "studentId": "student001",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": "Differentiate between Vulnerability Assessment and Penetration Testing?",
+            "quesId": "ques039",
+            "quesDate": "22/01/2025",
+            "studentId": "student001",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": "Differentiate between the long and wide format data.",
+            "quesId": "ques0040",
+            "quesDate": "14/01/2025",
+            "studentId": "student001",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": "Slums and Gated communities are two extremes of Exclusion in India. Your opinion on this statement.",
+            "quesId": "ques0041",
+            "quesDate": "06/01/2025",
+            "studentId": "student001",
+            "subject": "Geography",
+            "subjectId": "sub005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": "What distinguishes patent protection from copyright, and when should each be used?",
+            "quesId": "ques0042",
+            "quesDate": "06/01/2025",
+            "studentId": "student001",
+            "subject": "Law",
+            "subjectId":"sub006"
+        },
+
+
+
+
+
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "What is two way data binding in Angular?",
+            "quesId": "ques0043",
+            "quesDate": "12/02/2025",
+            "studentId": "student002",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "Discuss whether the Mahabharata could have been a single author’s work.",
+            "quesId": "ques0044",
+            "quesDate": "13/02/2025",
+            "studentId": "student002",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": "What are the common types of cyber security attacks?",
+            "quesId": "ques0045",
+            "quesDate": "22/02/2025",
+            "studentId": "student002",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": "What are Eigenvectors and Eigenvalues?",
+            "quesId": "ques0046",
+            "quesDate": "14/02/2025",
+            "studentId": "student002",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": "Tell me about the contributions of Arab scholars to geography during medieval period.",
+            "quesId": "ques0047",
+            "quesDate": "26/02/2025",
+            "studentId": "student002",
+            "subject": "Geography",
+            "subjectId": "sub005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": "Can you explain the legal concept of consensus ad idem in contract law?",
+            "quesId": "ques0048",
+            "quesDate": "24/01/2025",
+            "studentId": "student002",
+            "subject": "Law",
+            "subjectId":"sub006"
+        },
+
+
+
+
+
+
+
+
+
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "What are annotations in Angular ?",
+            "quesId": "ques0049",
+            "quesDate": "12/03/2025",
+            "studentId": "student003",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "How important were gender differences in the early societies?",
+            "quesId": "ques0050",
+            "quesDate": "18/03/2025",
+            "studentId": "student003",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": "What do you mean by brute force in the context of Cyber Security?",
+            "quesId": "ques0051",
+            "quesDate": "21/03/2025",
+            "studentId": "student003",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": "What do you understand by Imbalanced Data?",
+            "quesId": "ques0052",
+            "quesDate": "04/03/2025",
+            "studentId": "student003",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": "Would you consider Humboldt and Ritter as founders of modern geography? Justify.",
+            "quesId": "ques0053",
+            "quesDate": "16/03/2025",
+            "studentId": "student003",
+            "subject": "Geography",
+            "subjectId": "sub005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": "What are the six freedoms guaranteed under Article 19 of the Indian Constitution?",
+            "quesId": "ques0054",
+            "quesDate": "18/03/2025",
+            "studentId": "student003",
+            "subject": "Law",
+            "subjectId":"sub006"
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "What is Pipe transform Interface in Angular?",
+            "quesId": "ques0055",
+            "quesDate": "30/03/2025",
+            "studentId": "student004",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "Discuss the evidence suggesting Brahmanical prescriptions about kinship and marriage were not universally followed.",
+            "quesId": "ques0056",
+            "quesDate": "03/04/2025",
+            "studentId": "student004",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": "What do you mean by Shoulder Surfing?",
+            "quesId": "ques0057",
+            "quesDate": "12/04/2025",
+            "studentId": "student004",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": "What do you understand by Survivorship Bias?",
+            "quesId": "ques0058",
+            "quesDate": "14/04/2025",
+            "studentId": "student004",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": "Throw some light on energy related environmental problems and politics in developed and developing countries.",
+            "quesId": "ques0059",
+            "quesDate": "16/04/2025",
+            "studentId": "student004",
+            "subject": "Geography",
+            "subjectId": "sub005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": "Which constitutional article ensures that no one is prosecuted or punished for the same offence more than once?",
+            "quesId": "ques0060",
+            "quesDate": "06/04/2025",
+            "studentId": "student004",
+            "subject": "Law",
+            "subjectId":"sub006"
+        },
+
+
+
+
+
+
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "Create a TypeScript class with a constructor and a function.",
+            "quesId": "ques0061",
+            "quesDate": "12/01/2025",
+            "studentId": "student005",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "How were the ideas of the Upanishadic thinkers different from that of the fatalists and materialists?",
+            "quesId": "ques0062",
+            "quesDate": "13/01/2025",
+            "studentId": "student005",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": "Differentiate between hashing and encryption.",
+            "quesId": "ques0063",
+            "quesDate": "09/01/2025",
+            "studentId": "student005",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": "What is a Gradient and Gradient Descent?",
+            "quesId": "ques0064",
+            "quesDate": "08/01/2025",
+            "studentId": "student005",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": "What do you mean by the spatial pattern of flood hazards and its related mitigation strategies?",
+            "quesId": "ques0065",
+            "quesDate": "08/01/2025",
+            "studentId": "student005",
+            "subject": "Geography",
+            "subjectId": "sub005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": "What legal sections address cheating by personation, and how is it punishable?",
+            "quesId": "ques0066",
+            "quesDate": "07/01/2025",
+            "studentId": "student005",
+            "subject": "Law",
+            "subjectId":"sub006"
+        },
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "What is a bootstrapping module?",
+            "quesId": "ques0067",
+            "quesDate": "12/02/2025",
+            "studentId": "student006",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "To what extent does Buddhist literature knowledge help in understanding the sculpture at Sanchi?",
+            "quesId": "ques0068",
+            "quesDate": "13/02/2025",
+            "studentId": "student006",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": "What do you mean by two-factor authentication?",
+            "quesId": "ques0069",
+            "quesDate": "09/02/2025",
+            "studentId": "student006",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": "Define bias-variance trade-off?",
+            "quesId": "ques0070",
+            "quesDate": "08/02/2025",
+            "studentId": "student006",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": "What are the problems of development in South Asia with respect to population and environment?",
+            "quesId": "ques0071",
+            "quesDate": "08/02/2025",
+            "studentId": "student006",
+            "subject": "Geography",
+            "subjectId": "sub005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": "How would you differentiate between murder and homicide from a legal standpoint?",
+            "quesId": "ques0072",
+            "quesDate": "07/02/2025",
+            "studentId": "student006",
+            "subject": "Law",
+            "subjectId":"sub006"
+        },
+
+
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "What is Change Detection, and how does the Change Detection Mechanism work?",
+            "quesId": "ques0073",
+            "quesDate": "12/02/2025",
+            "studentId": "student006",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "What is your understanding of the regional and chronological distribution of the Neolithic and Chalcolithic cultures?",
+            "quesId": "ques0074",
+            "quesDate": "13/02/2025",
+            "studentId": "student006",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": "How can you avoid a brute force attack?",
+            "quesId": "ques0075",
+            "quesDate": "09/02/2025",
+            "studentId": "student006",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": "What is logistic regression? State an example where you have recently used logistic regression.",
+            "quesId": "ques0076",
+            "quesDate": "08/02/2025",
+            "studentId": "student006",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": "What is the spatio-temporal pattern of Industrialization in India?",
+            "quesId": "ques0077",
+            "quesDate": "08/02/2025",
+            "studentId": "student006",
+            "subject": "Geography",
+            "subjectId": "sub005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": "How would you differentiate between parole and furlough in legal terms?",
+            "quesId": "ques0078",
+            "quesDate": "07/02/2025",
+            "studentId": "student006",
+            "subject": "Law",
+            "subjectId":"sub006"
+        },
+
+
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "What is AOT compilation? What are the advantages of AOT?",
+            "quesId": "ques0079",
+            "quesDate": "12/02/2025",
+            "studentId": "student006",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "Who introduced the system of local boards or local bodies in India?",
+            "quesId": "ques0080",
+            "quesDate": "13/02/2025",
+            "studentId": "student006",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": "What do you mean by Man-in-the-Middle Attack?",
+            "quesId": "ques0081",
+            "quesDate": "09/02/2025",
+            "studentId": "student006",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": "What is Linear Regression? What are some of the major drawbacks of the linear model?",
+            "quesId": "ques0082",
+            "quesDate": "08/02/2025",
+            "studentId": "student006",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": "Can you examine Christaller’s Central Place Theory and its applicability on Indian cities?",
+            "quesId": "ques0083",
+            "quesDate": "08/02/2025",
+            "studentId": "student006",
+            "subject": "Geography",
+            "subjectId": "sub005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": "Which section of the Indian Penal Code (IPC) addresses harassment, and what does it entail?",
+            "quesId": "ques0084",
+            "quesDate": "07/02/2025",
+            "studentId": "student006",
+            "subject": "Law",
+            "subjectId":"sub006"
+        }
+
+
+
+
+
+    ]
+}
