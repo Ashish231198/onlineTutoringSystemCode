@@ -1,0 +1,486 @@
+{
+    "jsonName": "studentQuestionsList",
+    
+    "questionList": [
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "Describe in brief what is angular, whats the benefit of this, how angular is better than angularJs?",
+            "answer": "Angular is a TypeScript-based front-end web application framework. It targets both the browser and the server. Angular is one of the most popular frameworks for UI design today, with hundreds of thousands of developers worldwide contributing to its community project. Its compelling features and performance have made it an essential tool for any web developer to have in their toolbox.",
+            "quesId": "ques001",
+            "quesDate": "02/01/2025",
+            "ansDate": "15/01/2025",
+            "tutorId": "tutor001",
+            "studentId": "student001",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "Describe in brief what is History, Why is studying history important?",
+            "answer": "History is the study of the past, encompassing the events, people, societies, cultures, and ideas that have shaped our world. It involves analyzing sources, interpreting evidence, and constructing narratives to understand the complexities of the past and its impact on the present.",
+            "quesId": "ques002",
+            "quesDate": "03/01/2025",
+            "ansDate": "16/01/2025",
+            "tutorId": "tutor002",
+            "studentId": "student001",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": "Describe in brief what is Cyber Security, What are the common Cyberattacks?",
+            "answer": "Cybersecurity is the act of protecting computer systems, networks, programs, and data from digital attacks, unauthorized access, damage, or theft. Cybersecurity is a critical aspect of modern technology, with its importance growing as digital systems become increasingly integrated into our daily lives. With threats ranging from data breaches to malicious software attacks, the need for skilled cybersecurity professionals is higher than ever. They typically aim to access, alter or destroy sensitive information, extort money from users, or disrupt normal business processes. ",
+            "quesId": "ques003",
+            "quesDate": "02/01/2025",
+            "ansDate": "15/01/2025",
+            "tutorId": "tutor003",
+            "studentId": "student001",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": "Describe in brief what is Data Science, Define the terms KPI, lift, model fitting, robustness and DOE.",
+            "answer": "An interdisciplinary field that constitutes various scientific processes, algorithms, tools, and machine learning techniques working to help find common patterns and gather sensible insights from the given raw input data using statistical and mathematical analysis is called Data Science.",
+            "quesId": "ques004",
+            "quesDate": "04/01/2025",
+            "ansDate": "19/01/2025",
+            "tutorId": "tutor004",
+            "studentId": "student001",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": "Describe in brief key concepts for developing an understanding of geography and What are some of the tools that geographers use?",
+            "answer": "Interviewers sometimes start job interviews with this question to test your basic understanding of geography. As a geography professional, knowledge of key concepts shows your level of expertise in the field. Respond by listing some of these concepts and providing a brief explanation of each of them. When interviewers ask this question, they want to check your familiarity with the tools many professionals use in the geography field. In your answer, describe the ones you have used in your previous positions. You can also mention which ones you found particularly useful.",
+            "quesId": "ques005",
+            "quesDate": "06/01/2025",
+            "ansDate": "20/01/2025",
+            "tutorId": "tutor005",
+            "studentId": "student001",
+            "subject": "Geography",
+            "subjectId": "005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": "Can you discuss a challenging case study or project you worked on during your law school?",
+            "answer": "One of the most challenging projects I worked on involved a moot court competition where we had to tackle a complex case related to intellectual property law. My team and I spent countless hours researching case laws, preparing briefs, and practising oral arguments. The experience taught me the importance of meticulous research, teamwork, and effective communication. Despite the challenges, our team won the competition, which was immensely rewarding and reinforced my interest in intellectual property law.",
+            "quesId": "ques006",
+            "quesDate": "06/01/2025",
+            "ansDate": "20/01/2025",
+            "tutorId": "tutor006",
+            "studentId": "student001",
+            "subject": "Law",
+            "subjectId":"sub006"
+        },
+
+
+
+
+
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "Why were client-side frameworks like Angular introduced?",
+            "answer": "Back in the day, web developers used VanillaJS and jQuery to develop dynamic websites but, as the logic of one's website grew, the code became more and more tedious to maintain. For applications that use complex logic, developers had to put in extra effort to maintain the separation of concerns for the app. Also, jQuery did not provide facilities for data handling across views. For tackling the above problems, client-side frameworks like Angular came into the picture, which made life easier for the developers by handling the separation of concerns and dividing code into smaller bits of information (In the case of Angular, called Components).",
+            "quesId": "ques007",
+            "quesDate": "02/02/2025",
+            "ansDate": "15/02/2025",
+            "tutorId": "tutor001",
+            "studentId": "student002",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "What are the different types of historical sources?",
+            "answer": "Historical sources can be categorized into two main types: Primary Sources: These are firsthand accounts or objects created during the historical period under study. Examples include diaries, letters, photographs, artifacts, government documents, and eyewitness testimonies.Secondary Sources: These are accounts written about historical events after they occurred. They are based on primary sources and offer interpretations and analyses. Examples include biographies, textbooks, articles, and documentaries.",
+            "quesId": "ques008",
+            "quesDate": "03/02/2025",
+            "ansDate": "16/02/2025",
+            "tutorId": "tutor002",
+            "studentId": "student002",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": " What are the elements of cyber security?",
+            "answer": "Application Security: Application security is the most important core component of cyber security, adding security highlights to applications during the improvement period to defend against cyber attacks. Information Security: Information security is a component of cyber security that describes how information is protected against unauthorized access, use, disclosure, disruption, alteration, or deletion. Network Security: Network security is the security provided to a network from unauthorized access and threats. It is the network administrator’s responsibility to take precautions to protect the network from potential security threats. Network security is another element of IT security, the method of defending and preventing unauthorized access to computer networks.",
+            "quesId": "ques009",
+            "quesDate": "02/02/2025",
+            "ansDate": "15/02/2025",
+            "tutorId": "tutor003",
+            "studentId": "student002",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": " What is the difference between data analytics and data science?",
+            "answer": "Data science involves the task of transforming data by using various technical analysis methods to extract meaningful insights using which a data analyst can apply to their business scenarios. Data analytics deals with checking the existing hypothesis and information and answers questions for a better and effective business-related decision-making process. Data Science drives innovation by answering questions that build connections and answers for futuristic problems. Data analytics focuses on getting present meaning from existing historical context whereas data science focuses on predictive modeling.",
+            "quesId": "ques0010",
+            "quesDate": "04/02/2025",
+            "ansDate": "19/02/2025",
+            "tutorId": "tutor004",
+            "studentId": "student002",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": "What do you know about spatial awareness?",
+            "answer": "Spatial awareness is the ability to be aware of your surroundings and your position in reference to them. It enables you to know about your personal space and to comprehend your location and distance from the surrounding aspects. With this ability, you can visually perceive relationships between different objects in physical space and understand how these relationships alter as the objects change positions.",
+            "quesId": "ques0011",
+            "quesDate": "06/02/2025",
+            "ansDate": "20/02/2025",
+            "tutorId": "tutor005",
+            "studentId": "student002",
+            "subject": "Geography",
+            "subjectId": "005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": "Why did you choose to pursue a career in law?",
+            "answer": "Choosing a career in law was a decision driven by my passion for justice and advocacy. From an early age, I was inspired by how legal professionals can influence society positively and uphold the principles of fairness and equality. My experiences during internships and volunteer work at legal aid clinics solidified my commitment to this profession. I am eager to use my skills and knowledge to make a meaningful impact in the legal field.",
+            "quesId": "ques0012",
+            "quesDate": "06/01/2025",
+            "ansDate": "20/01/2025",
+            "tutorId": "tutor006",
+            "studentId": "student002",
+            "subject": "Law",
+            "subjectId":"sub006"
+        },
+
+
+
+
+
+
+
+
+
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "What are some of the advantages of Angular over other frameworks?",
+            "answer": "Features that are provided out of the box - Angular provides a number of built-in features like routing, state management, rxjs library and http servicesstraight out of the box. This means that one does not need to look for the above-stated features separately. They are all provided with angular. Declarative UI - Angular uses HTML to render the UI of an application. HTML is a declarative language and is much easier to use than JavaScript. Long-term Google support - Google announced Long-term support for Angular. This means that Google plans to stick with Angular and further scale up its ecosystem.",
+            "quesId": "ques0013",
+            "quesDate": "02/03/2025",
+            "ansDate": "15/03/2025",
+            "tutorId": "tutor001",
+            "studentId": "student003",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "What is historical interpretation?",
+            "answer": "Historical interpretation refers to the process of analyzing historical sources, drawing conclusions, and constructing narratives about the past. Historians use their knowledge, skills, and perspectives to interpret evidence and present their understanding of historical events. Different historians may have different interpretations due to their backgrounds, biases, and the sources they prioritize.",
+            "quesId": "ques0014",
+            "quesDate": "03/03/2025",
+            "ansDate": "16/03/2025",
+            "tutorId": "tutor002",
+            "studentId": "student003",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": "What is a Firewall?",
+            "answer": "A firewall is a hardware or software-based network security device that monitors all incoming and outgoing traffic and accepts, denies, or drops that particular traffic based on a defined set of security rules.",
+            "quesId": "ques0015",
+            "quesDate": "02/03/2025",
+            "ansDate": "15/03/2025",
+            "tutorId": "tutor003",
+            "studentId": "student003",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": "What are some of the techniques used for sampling? What is the main advantage of sampling?",
+            "answer": "Data analysis can not be done on a whole volume of data at a time especially when it involves larger datasets. It becomes crucial to take some data samples that can be used for representing the whole population and then perform analysis on it. While doing this, it is very much necessary to carefully take sample data out of the huge data that truly represents the entire dataset.",
+            "quesId": "ques0016",
+            "quesDate": "04/03/2025",
+            "ansDate": "19/03/2025",
+            "tutorId": "tutor004",
+            "studentId": "student003",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": " What can you tell me about GPS and GIS technology?",
+            "answer": "GPS stands for Global Positioning System, and GIS is a global information system. GPS units act as receivers for signals that GPS satellites transmit to Earth. GIS accesses and combines information from different datasets to create a mapping system. I have used GPS in surveying work and mapping to create map overlays with geotagging. This allows for navigation and location finding, automatic time updates and tracking vehicles. By using GIS, I have been able to obtain geospatial information and record and store geographic data.",
+            "quesId": "ques0017",
+            "quesDate": "06/03/2025",
+            "ansDate": "20/03/2025",
+            "tutorId": "tutor005",
+            "studentId": "student003",
+            "subject": "Geography",
+            "subjectId": "005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": "How do you stay updated with current legal developments and changes in the law?",
+            "answer": "Staying updated with current legal developments is crucial for any lawyer. I regularly read legal journals, follow reputable law blogs, and subscribe to newsletters from law firms and legal institutions. Additionally, I attend webinars, workshops, and legal seminars to broaden my knowledge. Engaging in discussions with peers and mentors also helps me stay informed about the latest trends and changes in the legal landscape.",
+            "quesId": "ques0018",
+            "quesDate": "06/03/2025",
+            "ansDate": "20/03/2025",
+            "tutorId": "tutor006",
+            "studentId": "student003",
+            "subject": "Law",
+            "subjectId":"sub006"
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "What are Single Page Applications (SPA)?",
+            "answer": "Single page applications are web based applications that only need to be loaded once, with new functionality consisting of only minor changes to the user interface. It does not load new HTML pages to display the content of the new page, but rather generates it dynamically. This is made feasible by JavaScript's ability to alter DOM components on the current page. A Single Page Application method is speedier, resulting in a more consistent user experience.",
+            "quesId": "ques0019",
+            "quesDate": "02/04/2025",
+            "ansDate": "15/04/2025",
+            "tutorId": "tutor001",
+            "studentId": "student004",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "What is the difference between history and archaeology?",
+            "answer": "History and archaeology are closely related disciplines, but they differ in their focus and methods: History: Primarily uses written sources, oral traditions, and other forms of recorded information to study the past. It focuses on understanding human societies and their interactions through time. Archaeology: Uses physical evidence, such as artifacts, structures, and landscapes, to investigate past civilizations and cultures. It aims to reconstruct past lifeways, societies, and environments.",
+            "quesId": "ques0020",
+            "quesDate": "03/04/2025",
+            "ansDate": "16/04/2025",
+            "tutorId": "tutor002",
+            "studentId": "student004",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": "What is VPN?",
+            "answer": "VPN stands for Virtual Private Network. A virtual private network (VPN) is a technology that creates a secure, encrypted connection over an insecure network like the Internet. A virtual private network is a method of extending a private network using a public network such as the Internet. The name only indicates that it is a virtual “private network”. A user may be part of a local area network at a remote location. Create a secure connection using a tunnelling protocol.",
+            "quesId": "ques0021",
+            "quesDate": "02/04/2025",
+            "ansDate": "15/04/2025",
+            "tutorId": "tutor003",
+            "studentId": "student004",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": "List down the conditions for Overfitting and Underfitting.",
+            "answer": "Overfitting: The model performs well only for the sample training data. If any new data is given as input to the model, it fails to provide any result. These conditions occur due to low bias and high variance in the model. Decision trees are more prone to overfitting. Underfitting: Here, the model is so simple that it is not able to identify the correct relationship in the data, and hence it does not perform well even on the test data. This can happen due to high bias and low variance. Linear regression is more prone to Underfitting.",
+            "quesId": "ques0022",
+            "quesDate": "04/04/2025",
+            "ansDate": "19/04/2025",
+            "tutorId": "tutor004",
+            "studentId": "student004",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": "How would you help students remember cardinal directions?",
+            "answer": "Understanding cardinal directions aids in developing orientation skills and spatial awareness and helps students know the directions of north, south, east and west. They can then use the information for navigation purposes and to learn about the relative positions of geographic features. To help students remember cardinal directions, I ask them to think of the globe as a clock. In that case, 12 is north, three is east, six is south and nine is west. I have also found it effective to use mnemonics in the classroom. A popular one is Naughty Elephants Squirt Water.",
+            "quesId": "ques0023",
+            "quesDate": "06/04/2025",
+            "ansDate": "20/04/2025",
+            "tutorId": "tutor005",
+            "studentId": "student004",
+            "subject": "Geography",
+            "subjectId": "005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": " What strengths do you bring to this position as a fresh law graduate?",
+            "answer": "As a fresh law graduate, I bring a strong academic background, a passion for continuous learning, and excellent research and analytical skills. My ability to think critically and my attention to detail enable me to handle complex legal issues effectively. I am also a team player with strong communication skills, which allows me to collaborate efficiently with colleagues and clients. My dedication to ethical practices and commitment to professional growth make me a valuable asset to your team.",
+            "quesId": "ques0024",
+            "quesDate": "06/04/2025",
+            "ansDate": "20/04/2025",
+            "tutorId": "tutor006",
+            "studentId": "student004",
+            "subject": "Law",
+            "subjectId":"sub006"
+        },
+
+
+
+
+
+
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "What are templates in Angular?",
+            "answer": "template is a kind of HTML that instructs Angular about how to display a component. An Angular HTML template, like conventional HTML, produces a view, or user interface, in the browser, but with far more capabilities. Angular API evaluates an HTML template of a component, creates HTML, and renders it.",
+            "quesId": "ques0025",
+            "quesDate": "12/01/2025",
+            "ansDate": "20/01/2025",
+            "tutorId": "tutor001",
+            "studentId": "student005",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "What is the significance of the Neolithic Revolution?",
+            "answer": "The Neolithic Revolution, around 10,000 BCE, marked a significant shift in human history. It saw the development of agriculture, which led to: Settled lifestyles: Humans began to cultivate crops and domesticate animals, leading to sedentary living. Population growth: The reliable food supply allowed for a significant increase in population density. Village formation: Communities arose around agricultural centers, forming the basis of organized societies.",
+            "quesId": "ques0026",
+            "quesDate": "13/01/2025",
+            "ansDate": "26/01/2025",
+            "tutorId": "tutor002",
+            "studentId": "student005",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": "What are the different sources of malware?",
+            "answer": "Worms: A worm is basically a type of malicious malware that spreads rapidly from one computer to another via email and file sharing. Worms do not require host software or code to execute. Spyware: Spyware is basically a type of malicious malware that runs in the background of your computer, steals all your sensitive data, and reports this data to remote attackers. Ransomware: Ransomware is used as malware to extort money from users for ransom by gaining unauthorized access to sensitive user information and demanding payment to delete or return that information from the user. Virus: A virus is a type of malicious malware that comes as an attachment with a file or program. Viruses usually spread from one program to another program, and they will run only when the host file gets executed. The virus can only cause damage to the computer until the host file runs.",
+            "quesId": "ques0027",
+            "quesDate": "09/01/2025",
+            "ansDate": "23/01/2025",
+            "tutorId": "tutor003",
+            "studentId": "student005",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": " What are Eigenvectors and Eigenvalues?",
+            "answer": "Eigenvectors are column vectors or unit vectors whose length/magnitude is equal to 1. They are also called right vectors. Eigenvalues are coefficients that are applied on eigenvectors which give these vectors different values for length or magnitude. A matrix can be decomposed into Eigenvectors and Eigenvalues and this process is called Eigen decomposition. These are then eventually used in machine learning methods like PCA (Principal Component Analysis) for gathering valuable insights from the given matrix.",
+            "quesId": "ques0028",
+            "quesDate": "08/01/2025",
+            "ansDate": "23/01/2025",
+            "tutorId": "tutor004",
+            "studentId": "student005",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": "What do you know about cartography?",
+            "answer": "The term cartography comes from the French word, cartographie. It is the process of collecting, organising, analysing and using geographical data to create detailed and accurate maps. It enables geographers to get the information they require for research and navigation. In my previous position, I used my knowledge of cartography to extract statistical data, analyse it and prepare technical reports.",
+            "quesId": "ques0029",
+            "quesDate": "08/01/2025",
+            "ansDate": "22/04/2025",
+            "tutorId": "tutor005",
+            "studentId": "student005",
+            "subject": "Geography",
+            "subjectId": "005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": "How do you handle stressful situations and tight deadlines?",
+            "answer": "Handling stressful situations and tight deadlines is integral to the legal profession. I prioritise tasks and manage my time efficiently to ensure deadlines are met without compromising on quality. Staying organised and maintaining a calm demeanour helps me navigate through pressure-filled situations. I also believe in the importance of self-care and work-life balance to maintain high productivity and mental well-being.",
+            "quesId": "ques0030",
+            "quesDate": "07/01/2025",
+            "ansDate": "21/01/2025",
+            "tutorId": "tutor006",
+            "studentId": "student005",
+            "subject": "Law",
+            "subjectId":"sub006"
+        },
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "What is the scope?",
+            "answer": "In Angular, a scope is an object that refers to the application model. It is a context in which expressions can be executed. These scopes are grouped hierarchically, comparable to the DOM structure of the application. A scope aids in the propagation of various events and the monitoring of expressions.",
+            "quesId": "ques0031",
+            "quesDate": "12/02/2025",
+            "ansDate": "20/02/2025",
+            "tutorId": "tutor001",
+            "studentId": "student006",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "What is the role of primary sources in historical research?",
+            "answer": "Primary sources are essential for historical research because they provide firsthand accounts and evidence from the time period being studied. They allow historians to: Gain direct insights: Primary sources offer a more authentic perspective than secondary sources, which are often interpretations of primary sources. Analyze perspectives: Primary sources can reveal different viewpoints and experiences within a historical event. Identify biases: By examining the source's author, context, and intended audience, historians can identify potential biases and limitations. Support arguments: Primary sources provide concrete evidence to support historical interpretations and arguments.",
+            "quesId": "ques0032",
+            "quesDate": "13/02/2025",
+            "ansDate": "26/02/2025",
+            "tutorId": "tutor002",
+            "studentId": "student006",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": "How does email work?",
+            "answer": "When a sender uses an e-mail program to send an e-mail, it is redirected to a simple e-mail transfer protocol. In this protocol, the recipient’s email address belongs to a different domain name or the same domain name as the sender (Gmail, Outlook, etc.). After that, the e-mail will be stored on the server, and later he will send it using the POP or IMAP protocol. Then, if the recipient has a different domain name address, the SMTP protocol communicates with the DNS (Domain Name Server) for the different addresses that the recipient uses. Then the sender’s SMTP  communicates with the receiver’s SMTP, and the receiver’s SMTP performs the communication. This way the email is delivered to the recipient’s SMTP. If certain network traffic issues prevent both the sender’s SMTP  and the recipient’s SMTP from communicating with each other, outgoing emails will be queued at the recipient’s SMTP and finally to be received by the recipient. Also, if a message stays in the queue for too long due to terrible circumstances, the message will be returned to the sender as undelivered.",
+            "quesId": "ques0033",
+            "quesDate": "09/02/2025",
+            "ansDate": "23/02/2025",
+            "tutorId": "tutor003",
+            "studentId": "student006",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": "What does it mean when the p-values are high and low?",
+            "answer": "A p-value is the measure of the probability of having results equal to or more than the results achieved under a specific hypothesis assuming that the null hypothesis is correct. This represents the probability that the observed difference occurred randomly by chance. Low p-value which means values ≤ 0.05 means that the null hypothesis can be rejected and the data is unlikely with true null. High p-value, i.e values ≥ 0.05 indicates the strength in favor of the null hypothesis. It means that the data is like with true null. p-value = 0.05 means that the hypothesis can go either way.",
+            "quesId": "ques0034",
+            "quesDate": "08/02/2025",
+            "ansDate": "23/02/2025",
+            "tutorId": "tutor004",
+            "studentId": "student006",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": "What do you know about the heartland theory?",
+            "answer": "Geographical features have a lot of influence on geopolitics. The heartland theory is a geopolitical theory proposed in 1904 by the English geographer Sir Halford Mackinder in his essay “The Geographical Pivot of History.” Mackinder termed the Eastern European area as the heartland and suggested that anyone who could control this region would be able to control the world. This is because Eastern Europe is rich in mineral resources such as natural gas, petroleum, coal, iron ore and bauxite. Additionally, the region produces wheat, rye and other agricultural commodities.",
+            "quesId": "ques0035",
+            "quesDate": "08/02/2025",
+            "ansDate": "22/02/2025",
+            "tutorId": "tutor005",
+            "studentId": "student006",
+            "subject": "Geography",
+            "subjectId": "005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": "Can you describe a significant case you have worked on and your role in it?",
+            "answer": "One of the most significant cases I worked on involved a multi-million dollar corporate litigation where I represented a major client. I led the discovery process, analysed complex legal documents, and prepared comprehensive reports. I collaborated closely with senior partners to develop a robust legal strategy. The case required extensive negotiation skills and a deep understanding of corporate law. Our team successfully negotiated a favourable settlement, saving the client from potential financial losses and reputational damage.",
+            "quesId": "ques0036",
+            "quesDate": "07/02/2025",
+            "ansDate": "21/02/2025",
+            "tutorId": "tutor006",
+            "studentId": "student006",
+            "subject": "Law",
+            "subjectId":"sub006"
+        }
+
+
+
+
+
+    ]
+}

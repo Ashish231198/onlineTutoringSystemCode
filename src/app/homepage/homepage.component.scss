@@ -1,0 +1,488 @@
+/* header */
+
+.subjectlist {
+    position: absolute;
+    z-index: 1000;
+    /* border: 0.5px solid black; */
+    margin-top: 70px;
+    background: rgba(29, 30, 60, 0.08);
+}
+
+.header {
+    padding: 10px 16px;
+    background: linear-gradient(89.33deg, #f0fcff -1.14%, hsla(0, 0%, 100%, .89) 0, #fef7f8 99.45%);
+    color: black;
+}
+
+.btn-head {
+    font-size: 16px;
+    line-height: 38px;
+}
+
+.active-line {
+    font-weight: 500;
+    border-bottom: 1px solid #000000;
+}
+
+.active-btn {
+    background: #1D1E3C;
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.89) !important;
+}
+
+.btn-login {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+}
+
+.btn-register {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+}
+
+.btn {
+    background: none;
+    color: inherit;
+    border: none;
+    outline: inherit;
+}
+
+.circleLarge {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 300px;
+    top: -105px;
+    border-radius: 50%;
+    background: rgba(110, 201, 108, 0.15);
+}
+
+.circleSmall {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 407px;
+    top: -55px;
+    border-radius: 50%;
+    background: #FFE2AB;
+}
+
+
+/* search */
+
+.advanceSearch {
+    background-color: #fff !important;
+    padding-top: 2px;
+}
+
+.advanceSearch:hover {
+    background: #127575 !important;
+    color: #fff !important;
+}
+
+.search {
+    background: #F0F0F0;
+    border-radius: 40px;
+}
+
+.subject-hover:hover {
+    background: #0F6767;
+}
+
+.roundedblue {
+    background: #12145B;
+    color: #fff;
+    border-radius: 48% !important;
+}
+
+.inputdata {
+    margin-top: 8px;
+    border-radius: 30px;
+    background: transparent;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.watchTutor {
+    width: 330px;
+    padding: 15px;
+    margin-left: -15%;
+    background: #1D1E3C;
+    border-radius: 40px;
+    margin-bottom: 60px;
+}
+
+.watchTutor-Btn {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+
+/* All section  */
+
+section {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 90%;
+}
+
+.line {
+    border-top: 0.3px solid rgba(110, 201, 108, 0.67);
+}
+
+#banner,
+#banner-subject,
+#step-registration,
+#about-us,
+#choose-us,
+#tutors,
+#user-comment {
+    width: auto;
+    overflow-x: hidden;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Roboto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(89.33deg, #F0FCFF -1.14%, rgba(255, 255, 255, 0.89) -1.14%, #FEF7F8 99.45%);
+}
+
+p {
+    display: flex;
+    font-size: 23px;
+    color: #000000;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.050em;
+    font-style: oblique;
+}
+
+.headcolor {
+    text-transform: capitalize;
+    color: #12145B;
+    margin: 15px;
+}
+
+h3 {
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 36px;
+    color: #000000;
+    line-height: 42px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+.subjectHover {
+    width: 120px;
+}
+
+.subjectHover:hover {
+    box-shadow: 4px 15px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    transform: scale(1.08);
+}
+
+.subStyle {
+    padding: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.postQuestion {
+    width: 673px;
+    font-weight: bold;
+    font-size: 64px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #12145B;
+}
+
+#step-registration h4 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+#step-registration p {
+    width: 400px;
+    height: 150px;
+}
+
+#step-registration span {
+    background: #1D1E3C;
+    border-radius: 40px;
+    padding: 10px 60px 10px 60px;
+    font-weight: 500;
+    font-size: 32px;
+    color: #fff;
+}
+
+.borderLR {
+    border-left: 0.3px solid rgba(110, 201, 108, 0.67);
+    border-right: 0.3px solid rgba(110, 201, 108, 0.67);
+}
+
+.bgcolor {
+    width: 100%;
+    height: 60%;
+    margin-top: -100px;
+    position: static;
+    background: rgba(159, 243, 157, 0.62);
+}
+
+.affordable {
+    margin: 90px 60px;
+    font-size: 64px;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.giveOur {
+    font-weight: 500;
+    font-size: 72px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #12145B;
+}
+
+
+/* tutors section */
+
+
+/* 
+.tutor-list {
+    font-size: 66px;
+    align-items: center;
+    text-align: justify;
+    color: #12145B;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 5px solid #12145B;
+}
+
+.imgbg {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.tutor-img-left {
+    width: 264px;
+    height: 264px;
+    background: rgba(226, 49, 55, 0.1);
+    border-radius: 30px;
+}
+
+.tutor-img-right {
+    width: 264px;
+    height: 264px;
+    background: rgba(84, 14, 130, 0.1);
+    border-radius: 30px;
+} */
+
+
+/* user-comment section */
+
+#allsubject {
+    width: auto;
+    color: #000000;
+    font-style: normal;
+    overflow-x: hidden;
+    font-weight: normal;
+    font-family: Roboto;
+    background: #C3F9C2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subimg {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 70px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+    width: 280px;
+    height: 300px;
+}
+
+.subname {
+    font-weight: bold;
+    font-size: 34px;
+    color: #12145B;
+}
+
+.subtopic {
+    font-size: 28px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #62B1F9;
+}
+
+#footer {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #C3F9C2;
+    font-family: Roboto;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    padding-bottom: 22px;
+    font-size: 22px;
+    width: auto;
+    overflow-x: hidden;
+}
+
+.btnSubs {
+    margin-top: 10px;
+    background: #12145B;
+    border-radius: 40px;
+    color: #fff;
+    padding: 1px 20px 1px 20px;
+}
+
+.inputSubs {
+    margin-top: 10px;
+    background: rgba(29, 30, 60, 0.08);
+    border-radius: 40px;
+    color: #000;
+    border: none;
+}
+
+#footer input {
+    text-align: center;
+}
+
+#footer .line {
+    border: 1px solid #000000;
+    width: 85%;
+}
+
+
+/* test search */
+
+.wrapper {
+    max-width: 450px;
+    margin: 150px auto;
+}
+
+.wrapper .search-input {
+    background: #fff;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+}
+
+.search-input input {
+    height: 55px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 60px 0 20px;
+    font-size: 18px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-input.active input {
+    border-radius: 5px 5px 0 0;
+}
+
+.search-input .autocom-box {
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+.search-input.active .autocom-box {
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.autocom-box li {
+    list-style: none;
+    padding: 8px 12px;
+    display: none;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+}
+
+.search-input.active .autocom-box li {
+    display: block;
+}
+
+.autocom-box li:hover {
+    background: #efefef;
+}
+
+.search-input .icon {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+    color: #644bff;
+    cursor: pointer;
+}
+
+.link{
+    cursor: pointer;
+    color: #62B1F9 !important;
+}
+.loginBox input {
+    font-size: 16px;
+}
+.loginHead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.activeBtn {
+    border: 1px solid #3c9794;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background: #64f0eb;
+}
+.inactiveBtn {
+    padding: 5px 25px;
+    border-radius: 25px;
+    border: 1px solid;
+}

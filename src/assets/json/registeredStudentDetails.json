@@ -1,0 +1,96 @@
+{
+    "jsonName": "registeredStudentDetails",
+    
+    "userList": [
+        {
+            "firstName": "Urvashi",
+            "lastName": "Dwivedi",
+            "email": "urvashi.dwivedi@gmail.com",
+            "password": "Urvashi@1234",
+            "userRole": "student",
+            "phoneNo": "9987564323",
+            "address": "",
+            "city": "Unnao",
+            "state": "Uttar Pradesh",
+            "country": "India",
+            "pincode": "209861",
+            "gender": "Female",
+            "studentId":"student001"
+        },
+        {
+            "firstName": "Ashish",
+            "lastName": "Dwivedi",
+            "email": "ashish.dwivedi@gmail.com",
+            "password": "Ashish@1234",
+            "userRole": "student",
+            "phoneNo": "9878657834",
+            "address": "",
+            "city": "Unnao",
+            "state": "Uttar Pradesh",
+            "country": "India",
+            "pincode": "234323",
+            "gender": "Male",
+            "studentId":"student002"
+        },
+        {
+            "firstName": "Anchal",
+            "lastName": "Shukla",
+            "email": "anchal.shukla@gmail.com",
+            "password": "Anchal@1234",
+            "userRole": "student",
+            "phoneNo": "8876665833",
+            "address": "",
+            "city": "Unnao",
+            "state": "Uttar Pradesh",
+            "country": "India",
+            "pincode": "234324",
+            "gender": "Female",
+            "studentId":"student003"
+        },
+        {
+            "firstName": "Shanvi",
+            "lastName": "Shukla",
+            "email": "shanvi.shukla@gmail.com",
+            "password": "Shanvi@1234",
+            "userRole": "student",
+            "phoneNo": "3789298832",
+            "address": "",
+            "city": "Kanpur",
+            "state": "Uttar Pradesh",
+            "country": "India",
+            "pincode": "324324",
+            "gender": "Female",
+            "studentId":"student004"
+        },
+        {
+            "firstName": "Sneha",
+            "lastName": "Mishra",
+            "email": "sneha.mishra@gmail.com",
+            "password": "Sneha@1234",
+            "userRole": "student",
+            "phoneNo": "7788665599",
+            "address": "",
+            "city": "Jaipur",
+            "state": "Rajasthan",
+            "country": "India",
+            "pincode": "893290",
+            "gender": "Female",
+            "studentId":"student005"
+        },
+        {
+            "firstName": "Kaushiki",
+            "lastName": "Shukla",
+            "email": "kaushiki.shukla@gmail.com",
+            "password": "Kaushiki@1234",
+            "userRole": "student",
+            "phoneNo": "7683893838",
+            "address": "",
+            "city": "Thane",
+            "state": "Mumbai",
+            "country": "India",
+            "pincode": "384902",
+            "gender": "Female",
+            "studentId":"student006"
+        }
+    ]
+}

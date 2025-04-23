@@ -1,0 +1,137 @@
+.container {
+    width: 96%;
+    border-radius: 12px;
+    border-bottom: 1px solid #992E88;
+    background: #FFF;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.08);
+    margin-bottom: var(--font-size-50);
+
+    .profileImg {
+        border-radius: 12px;
+    }
+    .profileImg {
+        position: absolute;
+        border-radius: 12px;
+        width: 150px;
+        height: 150px;
+        img{
+            max-width: 100%;
+            max-height: 100%;
+            width: 100%;
+            height: 100%;
+        }
+        input {
+            bottom: 0px;
+            right: 0px;
+            position: absolute;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 999 !important;
+        }
+        i{  
+            bottom: 0px;
+            right: 0px;
+            position: absolute;
+            cursor: pointer;
+            // background: #0E1C82;
+        }
+    }
+
+    .profileOption {
+        .upper {
+            p {
+                color: #000;
+                font-size: 22px;
+                margin-bottom: 0px;
+                // font-weight: 700;
+                // font-family: 'Neutrabold';
+            }
+
+            button {
+                border-radius: 8px;
+                background: #0E1C82;
+                padding: 8px 24px;
+                color: white;
+                border: none;
+            }
+        }
+
+        .lower {
+            color: #000;
+            font-size: 18px;
+
+            textarea {
+                border-radius: 8px;
+                border: 1px solid #EBE9EB;
+                background: #F9F6F8;
+            }
+
+            // line-height: 19px;
+        }
+    }
+
+    .profileDetail {
+        div {
+            h6 {
+                color: #000;
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            p {
+                color: var(--grey-1, #333);
+                font-size: 18px;
+                line-height: 19px;
+            }
+
+            span {
+                color: #353535;
+                font-size: 14px;
+                padding: var(--font-size-4) var(--font-size-7);
+                border-radius: 4px;
+                background: #E2EAFF;
+            }
+        }
+    }
+
+    .footer {
+        .cancel {
+            padding: var(--font-size-8) 30px;
+            border-radius: 6px;
+            background: var(--gray-3, #828282);
+            color: white;
+            border: none;
+        }
+
+        .save {
+            margin-left: var(--font-size-24);
+            padding: var(--font-size-8) 30px;
+            border-radius: 6px;
+            background: #0E1C82;
+            color: white;
+            border: none;
+        }
+    }
+}
+
+
+.cardNo {
+    select {
+        option {
+            span {
+                color: #353535;
+                font-size: 14px;
+                padding: var(--font-size-4) var(--font-size-7);
+                border-radius: 4px;
+                background: #E2EAFF;
+            }
+
+        }
+    }
+}
+.passEye {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

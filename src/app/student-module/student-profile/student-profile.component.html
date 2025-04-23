@@ -1,0 +1,102 @@
+<div class="container mt-4 mx-md-4 p-4 max-100vw">
+    <div class="row"> <img src="" alt="">
+        <div class="col-sm-12 col-md-2" style="width: 145px; border-radius: 12px;">
+            <img class="rounded" src="../../../../assets/icon/avtar.jpg"
+            onerror="this.src = '../../../../assets/icon/avtar.jpg'" style="max-width: 100%; width: 100%;" alt="">
+        </div>
+        <div class="col-sm-12 col-md-10 profileOption d-flex flex-column justify-content-center">
+            <div class="d-flex flex-column flex-md-row align-items-start justify-content-md-between upper mb-4 align-items-md-center">
+                <div class="d-flex flex-column">
+                    <p class="ff-book">{{profileDetail?.firstName}} {{profileDetail?.lastName}}</p>
+                    <p class="ff-light fs-6">{{profileDetail?.email}}</p>
+                </div>
+                <!-- <div class="mt-sm-2 ms-md-3">
+                    <button class="ff-tf-alt" style="margin-right: 10px;" >Edit</button>
+                    <button class="ff-tf-alt">Reset Password</button>
+                </div> -->
+            </div>
+            <!-- <div class="lower">
+                <p class="mb-0">{{profileDetail?.title}}</p>
+            </div> -->
+        </div>
+    </div>
+    <div class="row mt-5 profileDetail">
+        <div class="col-sm-12 col-md-4">
+            <h6>First Name</h6>
+            <p> {{profileDetail?.firstName}} </p>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <h6>Last Name</h6>
+            <p> {{profileDetail?.lastName || 'NA'}}</p>
+        </div>
+    </div>
+    <div class="row mt-5 profileDetail">
+        <!-- <div class="col-sm-12 col-md-4">
+            <h6>Date Of Birth</h6>
+            <p>16/11/1999</p>
+        </div> -->
+        <div class="col-sm-12 col-md-4">
+            <h6>E-Mail Address</h6>
+            <p> {{profileDetail?.email}} </p>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <h6>Contact</h6>
+            <p> {{profileDetail?.phoneNo || 'NA'}}</p>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <h6>Gender</h6>
+            <p>{{profileDetail?.gender}}</p>
+            <!-- <h6>Pronoun</h6>
+            <p>{{profileDetail?.gender == 'Male'?'He/Him':(profileDetail?.gender == 'Female'?'She/Her':'They/Them')}}</p> -->
+        </div>
+    </div>
+    <div class="row mt-5 profileDetail">
+        <div class="col-sm-12 col-md-4">
+            <h6>Address</h6>
+            <p>{{profileDetail?.city}} {{profileDetail?.state}}</p>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <h6>Country</h6>
+            <p>{{profileDetail?.country}} </p>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <h6>Pincode</h6>
+            <p>{{profileDetail?.pincode}} </p>
+        </div>
+    </div>
+    <div class="row mt-2 profileDetail">
+        <!-- <div class="col-sm-12 col-md-4">
+            <h6>Gender</h6>
+            <p>{{profileDetail?.gender || 'NA'}}</p>
+        </div> -->
+        <!-- <div class="col-sm-12 col-md-8">
+            <h6>Address</h6>
+            <p>{{profileDetail?.address || 'NA'}}</p>
+        </div> -->
+    </div>
+    <!-- <div class="row footer d-flex flex-column mt-4 mb-5">
+        <div class="profileDetail d-flex">
+            <div class="col-sm-12 col-md-2">
+                <h6>Joined On</h6>
+                <p>16/01/2023</p>
+            </div>
+            <div class="col-sm-12 col-md-12">
+                <h6>Student Id</h6>
+                <p>{{profileDetail?.id}}</p>
+            </div>
+        </div>
+        <div class="profileDetail d-flex">
+            <div class="col-2">
+                <h6>Payment Mode</h6>
+                <p>Credit Card</p>
+            </div>
+            <div class="col-4">
+                <h6>Credit Card</h6>
+                <div class="d-flex align-items-center">
+                    <span>VISA</span>
+                    <p class="mb-0" style="margin-left: 15px;">**** **** **** 9067</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+</div>

@@ -1,0 +1,378 @@
+{
+    "jsonName": "newQuestionsList",
+    
+    "questionList": [
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "Describe in brief what is angular, whats the benefit of this, how angular is better than angularJs?",
+            "quesId": "ques001",
+            "quesDate": "02/01/2025",
+            "studentId": "student001",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "Describe in brief what is History, Why is studying history important?",
+            "quesId": "ques002",
+            "quesDate": "03/01/2025",
+            "studentId": "student001",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": "Describe in brief what is Cyber Security, What are the common Cyberattacks?",
+            "quesId": "ques003",
+            "quesDate": "02/01/2025",
+            "studentId": "student001",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": "Describe in brief what is Data Science, Define the terms KPI, lift, model fitting, robustness and DOE.",
+            "quesId": "ques004",
+            "quesDate": "04/01/2025",
+            "studentId": "student001",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": "Describe in brief key concepts for developing an understanding of geography and What are some of the tools that geographers use?",
+            "quesId": "ques005",
+            "quesDate": "06/01/2025",
+            "studentId": "student001",
+            "subject": "Geography",
+            "subjectId": "005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": "Can you discuss a challenging case study or project you worked on during your law school?",
+            "quesId": "ques006",
+            "quesDate": "06/01/2025",
+            "studentId": "student001",
+            "subject": "Law",
+            "subjectId":"sub006"
+        },
+
+
+
+
+
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "Why were client-side frameworks like Angular introduced?",
+            "quesId": "ques007",
+            "quesDate": "02/02/2025",
+            "studentId": "student002",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "What are the different types of historical sources?",
+            "quesId": "ques008",
+            "quesDate": "03/02/2025",
+            "studentId": "student002",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": " What are the elements of cyber security?",
+            "quesId": "ques009",
+            "quesDate": "02/02/2025",
+            "studentId": "student002",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": " What is the difference between data analytics and data science?",
+            "quesId": "ques0010",
+            "quesDate": "04/02/2025",
+            "studentId": "student002",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": "What do you know about spatial awareness?",
+            "quesId": "ques0011",
+            "quesDate": "06/02/2025",
+            "studentId": "student002",
+            "subject": "Geography",
+            "subjectId": "005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": "Why did you choose to pursue a career in law?",
+            "quesId": "ques0012",
+            "quesDate": "06/01/2025",
+            "studentId": "student002",
+            "subject": "Law",
+            "subjectId":"sub006"
+        },
+
+
+
+
+
+
+
+
+
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "What are some of the advantages of Angular over other frameworks?",
+            "quesId": "ques0013",
+            "quesDate": "02/03/2025",
+            "studentId": "student003",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "What is historical interpretation?",
+            "quesId": "ques0014",
+            "quesDate": "03/03/2025",
+            "studentId": "student003",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": "What is a Firewall?",
+            "quesId": "ques0015",
+            "quesDate": "02/03/2025",
+            "studentId": "student003",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": "What are some of the techniques used for sampling? What is the main advantage of sampling?",
+            "quesId": "ques0016",
+            "quesDate": "04/03/2025",
+            "studentId": "student003",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": " What can you tell me about GPS and GIS technology?",
+            "quesId": "ques0017",
+            "quesDate": "06/03/2025",
+            "studentId": "student003",
+            "subject": "Geography",
+            "subjectId": "005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": "How do you stay updated with current legal developments and changes in the law?",
+            "quesId": "ques0018",
+            "quesDate": "06/03/2025",
+            "studentId": "student003",
+            "subject": "Law",
+            "subjectId":"sub006"
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "What are Single Page Applications (SPA)?",
+            "quesId": "ques0019",
+            "quesDate": "02/04/2025",
+            "studentId": "student004",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "What is the difference between history and archaeology?",
+            "quesId": "ques0020",
+            "quesDate": "03/04/2025",
+            "studentId": "student004",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": "What is VPN?",
+            "quesId": "ques0021",
+            "quesDate": "02/04/2025",
+            "studentId": "student004",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": "List down the conditions for Overfitting and Underfitting.",
+            "quesId": "ques0022",
+            "quesDate": "04/04/2025",
+            "studentId": "student004",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": "How would you help students remember cardinal directions?",
+            "quesId": "ques0023",
+            "quesDate": "06/04/2025",
+            "studentId": "student004",
+            "subject": "Geography",
+            "subjectId": "005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": " What strengths do you bring to this position as a fresh law graduate?",
+            "quesId": "ques0024",
+            "quesDate": "06/04/2025",
+            "studentId": "student004",
+            "subject": "Law",
+            "subjectId":"sub006"
+        },
+
+
+
+
+
+
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "What are templates in Angular?",
+            "quesId": "ques0025",
+            "quesDate": "12/01/2025",
+            "studentId": "student005",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "What is the significance of the Neolithic Revolution?",
+            "quesId": "ques0026",
+            "quesDate": "13/01/2025",
+            "studentId": "student005",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": "What are the different sources of malware?",
+            "quesId": "ques0027",
+            "quesDate": "09/01/2025",
+            "studentId": "student005",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": " What are Eigenvectors and Eigenvalues?",
+            "quesId": "ques0028",
+            "quesDate": "08/01/2025",
+            "studentId": "student005",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": "What do you know about cartography?",
+            "quesId": "ques0029",
+            "quesDate": "08/01/2025",
+            "studentId": "student005",
+            "subject": "Geography",
+            "subjectId": "005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": "How do you handle stressful situations and tight deadlines?",
+            "quesId": "ques0030",
+            "quesDate": "07/01/2025",
+            "studentId": "student005",
+            "subject": "Law",
+            "subjectId":"sub006"
+        },
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "quesTitle": "What is Angular?",
+            "quesDescription": "What is the scope?",
+            "quesId": "ques0031",
+            "quesDate": "12/02/2025",
+            "studentId": "student006",
+            "subject": "Programming",
+            "subjectId": "sub001"
+        },
+        {
+            "quesTitle": "What is history?",
+            "quesDescription": "What is the role of primary sources in historical research?",
+            "quesId": "ques0032",
+            "quesDate": "13/02/2025",
+            "studentId": "student006",
+            "subject": "History",
+            "subjectId": "sub002"
+        },
+        {
+            "quesTitle": "What is Cyber Security?",
+            "quesDescription": "How does email work?",
+            "quesId": "ques0033",
+            "quesDate": "09/02/2025",
+            "studentId": "student006",
+            "subject": "Cyber Security",
+            "subjectId": "sub003"
+        },
+        {
+            "quesTitle": "What is Data Science?",
+            "quesDescription": "What does it mean when the p-values are high and low?",
+            "quesId": "ques0034",
+            "quesDate": "08/02/2025",
+            "studentId": "student006",
+            "subject": "Science",
+            "subjectId": "sub004"
+        },
+        {
+            "quesTitle": "What are the key concepts for developing an understanding of geography?",
+            "quesDescription": "What do you know about the heartland theory?",
+            "quesId": "ques0035",
+            "quesDate": "08/02/2025",
+            "studentId": "student006",
+            "subject": "Geography",
+            "subjectId": "005"
+        },
+        {
+            "quesTitle": "What is Law?",
+            "quesDescription": "Can you describe a significant case you have worked on and your role in it?",
+            "quesId": "ques0036",
+            "quesDate": "07/02/2025",
+            "studentId": "student006",
+            "subject": "Law",
+            "subjectId":"sub006"
+        }
+
+
+
+
+
+    ]
+}

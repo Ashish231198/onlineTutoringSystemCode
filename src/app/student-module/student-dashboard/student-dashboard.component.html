@@ -1,0 +1,85 @@
+<div class="">
+    <div class="mainGrid">
+        <div class="sideMenuBar active" [class.active]="activeNav">
+            <div class="container px-3 d-flex flex-column">
+                <div class="logo-grid">
+                    <div class="d-flex logo">
+                        <img src="assets/icon/onlineTutor.png" height="75px" width="220px" alt="icon">
+                    </div>
+                    <div class="navToggle" [class.active]="activeNav">
+                        <button (click)="activeNav = !activeNav" class="btn">
+                            <img src="../../assets/icon/back-arrow.png" height="16px" width="16px" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="row primary-navigation">
+                    <div class="col-12 d-flex menuItem" (click)="tabName='Home';activeNav = false;" routerLink="home" routerLinkActive="active-link">
+                        <img [class.visible]="tabName == 'Home'" src="../../assets/icon/IconhomeBlue.png" alt="HomeIcon">
+                        <img src="../../assets/icon/home.png" alt="HomeIcon">
+                        <label>Home</label>
+                    </div>
+                    <div class="col-12 d-flex menuItem" (click)="tabName='Search';activeNav = false;" routerLink="/user/search" routerLinkActive="active-link">
+                        <img [class.visible]="tabName == 'Search'" src="../../assets/icon/IconsearchBlue.png" alt="HomeIcon">
+                        <img src="../../assets/icon/IconWhiteSearch.png" alt="SearchIcon">
+                        <label>Search</label>
+                    </div>
+                    <div class="col-12 d-flex menuItem" (click)="tabName='Post Question';activeNav = false;" routerLink="post-question" routerLinkActive="active-link">
+                        <img [class.visible]="tabName == 'Post Question'" src="../../assets/icon/IconlearnBlue.png" alt="HomeIcon">
+                        <img src="../../assets/icon/IconwhiteLearn.png" alt="LearnIcon">
+                        <label>Post Question</label>
+                    </div>
+                    <div class="col-12 d-flex menuItem" (click)="tabName='My Questions';activeNav = false;" routerLink="my-question" routerLinkActive="active-link">
+                        <img [class.visible]="tabName == 'My Questions'" src="../../assets/icon/IconblueEngage.png" alt="EngageIcon">
+                        <img src="../../assets/icon/IconwhiteEngage.png" alt="EngageIcon">
+                        <label>My Questions</label>
+                    </div>
+                    <div class="col-12 d-flex menuItem" (click)="tabName='Rate';activeNav = false;" routerLink="/user/rate" routerLinkActive="active-link">
+                        <img [class.visible]="tabName == 'Rate'" src="../../assets/icon/IconrateBlue.png" alt="RateIcon">
+                        <img src="../../assets/icon/IconwhiteRate.png" alt="RateIcon">
+                        <label>My Ratings</label>
+                    </div>
+                    <div class="col-12 d-flex menuItem" (click)="tabName='Community';activeNav = false;" routerLink="/user/community" routerLinkActive="active-link">
+                        <img [class.visible]="tabName == 'Community'" src="../../assets/icon/community.svg" alt="CommunityIcon">
+                        <img src="../../assets/icon/community_white.svg" alt="CommunityIcon">
+                        <label>Community</label>
+                    </div>
+                </div>
+                <!-- mt-auto -->
+                <div class="pb-3">
+                    <div class="col-12 d-flex menuItem line-top" (click)="tabName='Feedback';activeNav = false;" routerLink="/user/feedback" routerLinkActive="active-link">
+                        <img [class.visible]="tabName == 'Feedback'" src="../../assets/icon/IconfeedbackBlue.png" alt="FeedbackIcon">
+                        <img src="../../assets/icon/IconwhiteFeedback.png" alt="FeedbackIcon">
+                        <label>Feedbacks</label>
+                    </div>
+                    <div class="col-12 d-flex menuItem" (click)="tabName='Settings';activeNav = false;" routerLink="/user/settings" routerLinkActive="active-link">
+                        <img [class.visible]="tabName == 'Settings'" src="../../assets/icon/IconsettingBlue.png" alt="settingIcon">
+                        <img src="../../assets/icon/IconwhiteSetting.png" alt="settingIcon">
+                        <label>Settings</label>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="pageComponent p-0 bg-400">
+            <div class="header">
+                <div><h4 class="mb-0">{{tabName}}</h4></div>
+                <div class="d-flex align-items-center">
+                    <img src="../../../assets/images/profile.png" height="40px" alt="">
+                    <div>
+                        <div class="dropdown">
+                            <a class=" "  id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                              {{userDetails.firstName}} {{userDetails.lastName}}
+                            </a>
+                          
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <li><a class="dropdown-item"(click)="tabName='Profile'" routerLink="profile" >Profile</a></li>
+                              <li><a class="dropdown-item" (click)="logout()">Logout</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <router-outlet />
+        </div>
+    </div>
+</div>

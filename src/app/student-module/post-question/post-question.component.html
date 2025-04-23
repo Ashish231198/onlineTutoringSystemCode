@@ -1,0 +1,89 @@
+<!-- -------------------- Post Section ------------------------ -->
+<div class="container mt-4 mx-md-4 p-4 max-100vw">
+
+<section id="postquestion">
+    <div class="col-lg-12 ml-4 mr-4">
+        <div data-aos="zoom-in-left" class="row justify-content-center pr-5 pl-5 mb-5">
+            <h3 class="pt-1"><b>Post Question</b></h3>
+            <div class="row mt-2">
+                <div class="col-lg-12">
+                    <h5 class="pt-1">Select Your Subject</h5>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <label for="Subject">Subject<sup class="text-danger">*</sup></label>
+                            <br>
+                            <select name="subject" id="subject">
+                                <option value="">Select</option>
+                                <option value="sub001">Programming</option>
+                                <option value="sub002">History</option>
+                                <option value="sub003">Cyber Security</option>
+                                <option value="sub004">Science</option>
+                                <option value="sub005">Geography</option>
+                                <option value="sub006">Law</option>
+                              </select>
+                        </div>
+                        <div class="col-lg-5">
+                            <label class="">How soon do you need your answer? </label>
+                            <div class="row">
+                                <input type="date" placeholder="Select Timeline" class="form-control col-lg-7" [attr.minDate]="minDate" [(ngModel)]="timeline.date">
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <label for="amount">Approximate Amount </label>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="inputGroup-sizing-default">
+                                        $
+                                    </span>
+                                </div>
+                                <input type="number" [(ngModel)]="main.amount" placeholder="" class="form-control "
+                                    aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 p-2">
+                    <h4 class="pt-1 mt-3">Tell us about your problem ?</h4>
+                    <label for="question"><b>Question Title<sup class="text-danger">*</sup></b></label>
+                    <textarea type="text" [(ngModel)]="main.title" class="form-control input-field" id="question"
+                        rows="1" placeholder="Your Question" maxlength="2000"></textarea>
+                </div>
+                <div class="col-lg-12 p-2 mt-3">
+                    <label for="questionDescription"><b>Question Description<sup class="text-danger">*</sup></b></label>
+                    <textarea class="form-control input-field" maxlength="2000" [(ngModel)]="main.description"
+                        id="questionDescription" rows="5"></textarea>
+                </div>
+                <div class="row col-lg-12 mt-3">
+                    <div class="col-lg-6">
+                        <label for="exampleFile1"><b>Upload any materials that might help your tutor</b></label>
+                        <label class="btn btn-light btn-outline-dark border rounded-pill border-dark mt-2"
+                            for="my-file-selector">
+                            <input type="file" (change)="handleFileInput($event)" multiple id="my-file-selector"
+                                accept="application/doc,image/png,image/jpg,image/txt,application/pdf,image/jpeg"
+                                style="display:none">
+                            <b>Attachment <i class="fa fa-paperclip" aria-hidden="true"></i></b>
+                        </label>
+                        <div *ngIf="main['files'] && main['files'].length > 0">
+                            <div *ngFor="let img of main['files']">
+                                <label class='label label-info' id="upload-file-info">{{img.name ? img.name :
+                                    img.fileName}}
+                                    <span (click)="deleteFiles(img)">
+                                        <i class="fa fa-trash text-danger pointer" aria-hidden="true"></i>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 pb-5 mt-3">
+                <button type="button" class="btn  shadow" style="padding: 15px 60px;"
+                    (click)="postQuestion()"> {{submitBtn}} <i class="fa fa-arrow-right"
+                        aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </div>
+</section>
+</div>

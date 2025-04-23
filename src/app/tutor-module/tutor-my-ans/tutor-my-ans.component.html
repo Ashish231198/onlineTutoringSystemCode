@@ -1,0 +1,57 @@
+<div class="container mt-4 mx-md-4 p-4 max-100vw">
+    <div class="row">
+        <div class="col-12">
+
+            <div class="card mb-5" *ngFor="let ques of quesList; index as i; ">
+                <div class="card-header d-flex justify-content-between">
+                    <div>
+                        <b>Subject : </b> <strong>{{ques?.subject}}</strong>
+                    </div>
+                    <div>
+                        <b>Submitted By : </b> <strong>{{ques?.quesDate}}</strong>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title"><b>Ques : </b> {{ques?.quesDescription}}</h5>
+                    <p class="card-text" (click)="selectedQues = ques"> <b>Ans : </b> {{ques?.answer | slice:0:200}}....
+                        <a class="text-primary pointer" data-bs-toggle="modal" data-bs-target="#exampleModal">Read
+                            More</a> </p>
+                    <a> <b>Student Name : </b> {{ques?.studentName}}</a>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Read More modal -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"> <b>Subject : </b>
+                    <strong>{{selectedQues?.subject}}</strong>
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h5><b>Ques : </b>{{selectedQues?.quesDescription}}</h5>
+                <p><b>Ans : </b> {{selectedQues?.answer}}</p>
+                <div>
+                    <div>
+                        <a> <b>Student Name : </b> {{selectedQues?.studentName}}</a>
+                    </div>
+                    <div>
+                        <a> <b>Answer Submitted On : </b> {{selectedQues?.ansDate}}</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+        </div>
+    </div>
+</div>
