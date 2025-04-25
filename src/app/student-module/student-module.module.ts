@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { StudentRoutingModule } from './student-routing.module';
 import { ToastrModule } from 'ngx-toastr';
+import { StarRatingModule } from 'angular-star-rating';
 
 
 
@@ -10,6 +11,7 @@ import { ToastrModule } from 'ngx-toastr';
   imports: [
     CommonModule,
     StudentRoutingModule,
+    StarRatingModule.forRoot()
     // ToastrModule.forRoot()
   ]
 })

@@ -25,12 +25,12 @@
             </div>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item hvr-buzz-out pointer">
-                    <button class="btn btn-login" data-bs-toggle="modal"
-                        data-bs-target="#loginModal"><b>LOGIN</b></button>
+                    <button class="btn btn-login" id="openLoginModal" data-bs-toggle="modal"
+                       (click)="userRole = 'student'" data-bs-target="#loginModal"><b>LOGIN</b></button>
                 </li>
                 <li class="nav-item hvr-buzz-out pointer active-btn">
-                    <button class="btn btn-register" data-bs-toggle="modal"
-                        data-bs-target="#registerModal"><b>REGISTER</b></button>
+                    <button class="btn btn-register" id="openRegModal" data-bs-toggle="modal"
+                       (click)="userRole = 'student'" data-bs-target="#registerModal"><b>REGISTER</b></button>
                 </li>
             </ul>
         </nav>
@@ -382,6 +382,12 @@
                         <input type="submit" style="width: 45% !important;" class="md-button-darkblue" (click)="login()"
                             value="Login">
                     </div>
+                    <p class="text-dark text-center pt-2">Create your account?<button type="button"
+                        class="btn btn-link pointer" (click)="showRegister()"><b><u>Register</u></b></button></p>
+                    <!-- <div class="text-center">
+                        Create your account?
+                        <button type="button" class="btn pointer btn-link" (click)="showRegister()"><b><u>Register</u></b></button>
+                    </div> -->
                 </div>
 
             </div>
@@ -394,15 +400,60 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="registerModalLabel">Register</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" id="closeRegModal" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                ...
+                <div class="p-2 loginBox">
+                    <div class="loginHead">
+                        <img class="user" src="assets/images/profile.png" width="50px">
+                        <!-- <h1>Login</h1> -->
+                        <p class="mb-0">Welcome User! Please Register to your new account</p>
+                    </div>
+                    <br>
+                    <div class="d-flex justify-content-around">
+                        <button [ngClass]="userRole == 'student' ? 'activeBtn' : 'inactiveBtn'" (click)="userRole = 'student'">Student</button>
+                        <button [ngClass]="userRole == 'tutor' ? 'activeBtn' : 'inactiveBtn'" (click)="userRole = 'tutor'">Tutor</button>
+                    </div><br>
+                    <div class="d-flex input-group" style="gap: 15px;">
+                        <input type="text" placeholder="First Name" class="form-control" required>
+                        <input type="text" placeholder="Last Name" class="form-control" required>
+                    </div>
+                    <div class="d-flex input-group" style="gap: 15px;">
+                        <input type="number" placeholder="Mobile No." class="form-control" required>
+                        <select class="form-control" name="gender" id="gender">
+                            <option value="">Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="Other">Other</option>
+                          </select>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Email" [(ngModel)]="email" required>
+                    </div>
+                    
+                    <div class="d-flex input-group">
+                        <input type="text" placeholder="Address" class="form-control" required>
+                        <!-- <label for="gender">Gender<sup class="text-danger">*</sup></label> -->
+                            <!-- <br> -->
+                    </div>
+                    <!-- <span *ngIf="username.invalid && username.touched" class="text-danger">User Name is required</span> -->
+                    <div class="input-group mb-3">
+                        <input class="form-control" type="password" placeholder="Password" maxlength="16" (keyup.enter)="login()"
+                            [(ngModel)]="password">
+                    </div>
+                    <!-- <span class="text-danger" *ngIf="password.invalid && password.touched">Password is required</span> -->
+                    <div class="text-center mt-3">
+                        <input type="submit" style="width: 45% !important;" class="md-button-darkblue"
+                            value="Register">
+                    </div>
+                    <p class="text-dark text-center">If you already have an account?<button type="button"
+                        class="btn btn-link pointer" (click)="showLogin()"><b><u>LogIn</u></b></button></p>
+                </div>
             </div>
-            <div class="modal-footer">
+            <!-- <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

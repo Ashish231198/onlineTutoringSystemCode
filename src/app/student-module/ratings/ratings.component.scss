@@ -1,0 +1,119 @@
+.container {
+    .header {
+        .mainHeading {
+            h3 {
+                color: var(--Gray-2, #4F4F4F);
+                font-family: 'Neutrabold';
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+
+        .secBlock {
+            .searchBy {
+                width: 30%;
+
+                label {
+                    width: 100%;
+                    color: var(--gray-2, #4F4F4F);
+                    font-size: 14px;
+                    margin-right: 15px;
+                }
+            }
+
+            .searchHere {
+                margin-left: 20px;
+            }
+
+            .searchButton {
+                margin-left: 20px;
+
+                button {
+                    border-radius: 8px;
+                    background: var(--primary, #0E1C82);
+                    padding: 8px 15px;
+                    border: none;
+                }
+            }
+        }
+    }
+
+    .body {
+        table {
+            border: 1px solid #CECECE;
+
+            thead {
+                border-radius: 8px 8px 0px 0px;
+                background: var(--primary, #0E1C82);
+
+                th {
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 14px;
+                }
+            }
+
+            tbody {
+                tr {
+                    td {
+                        text-align: center;
+                        color: #474554;
+                        font-size: 14px;
+                    }
+
+                    .action {
+                        button {
+                            border: 1px solid #C4C4C466;
+                            border-radius: 50%;
+                            background: none;
+                            margin-right: 10px;
+                            padding: 4px 7px;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .pagination {
+            .left {
+                p {
+                    color: var(--gray-1, #333);
+                    font-size: 12px;
+                }
+            }
+
+            .right {}
+        }
+    }
+
+    ::placeholder {
+        color: rgba(0, 0, 0, 0.20);
+        /* Set the desired color here */
+    }
+}
+
+.ui-table {
+    border-radius: 10px;
+    overflow: hidden;
+
+    thead tr {
+        background-color: #0e1c82 !important;
+
+        th {
+            background-color: transparent;
+            padding-block: 1em;
+        }
+    }
+}
+
+tbody {
+    background-color: white;
+}
+
+.max-100vw {
+    max-width: calc(100vw - 2rem);
+    overflow-x: scroll;
+}

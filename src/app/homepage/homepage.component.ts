@@ -64,6 +64,14 @@ export class HomepageComponent {
     
     
   }
+  showLogin(){
+    document.getElementById('closeRegModal')?.click();
+    document.getElementById('openLoginModal')?.click();
+  }
+  showRegister(){
+    document.getElementById('closeLoginModal')?.click();
+    document.getElementById('openRegModal')?.click();
+  }
 
 
 }

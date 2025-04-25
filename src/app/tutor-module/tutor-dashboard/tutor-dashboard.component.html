@@ -13,48 +13,33 @@
                     </div>
                 </div>
                 <div class="row primary-navigation">
-                    <div class="col-12 d-flex menuItem" (click)="tabName='Home';activeNav = false;" routerLink="home" routerLinkActive="active-link">
-                        <img [class.visible]="tabName == 'Home'" src="../../assets/icon/IconhomeBlue.png" alt="HomeIcon">
+                    <div class="col-12 d-flex menuItem" (click)="tabName='Dashboard';activeNav = false;" routerLink="home" routerLinkActive="active-link">
+                        <img [class.visible]="tabName == 'Dashboard'" src="../../assets/icon/IconhomeBlue.png" alt="HomeIcon">
                         <img src="../../assets/icon/home.png" alt="HomeIcon">
-                        <label>Home</label>
+                        <label>Dashboard</label>
                     </div>
                     <div class="col-12 d-flex menuItem" (click)="tabName='New Questions';activeNav = false;" routerLink="new-question" routerLinkActive="active-link">
                         <img [class.visible]="tabName == 'New Questions'" src="../../assets/icon/IconsearchBlue.png" alt="HomeIcon">
                         <img src="../../assets/icon/IconWhiteSearch.png" alt="SearchIcon">
                         <label>New Questions</label>
                     </div>
-                    <!-- <div class="col-12 d-flex menuItem" (click)="tabName='Post Question';activeNav = false;" routerLink="post-question" routerLinkActive="active-link">
-                        <img [class.visible]="tabName == 'Post Question'" src="../../assets/icon/IconlearnBlue.png" alt="HomeIcon">
+                    <div class="col-12 d-flex menuItem" (click)="tabName='Submit Answer';activeNav = false;" routerLink="post-question" routerLinkActive="active-link">
+                        <img [class.visible]="tabName == 'Submit Answer'" src="../../assets/icon/IconlearnBlue.png" alt="HomeIcon">
                         <img src="../../assets/icon/IconwhiteLearn.png" alt="LearnIcon">
-                        <label>Post Question</label>
-                    </div> -->
+                        <label>Submit Answer</label>
+                    </div>
                     <div class="col-12 d-flex menuItem" (click)="tabName='My Answers';activeNav = false;" routerLink="my-answer" routerLinkActive="active-link">
                         <img [class.visible]="tabName == 'My Answers'" src="../../assets/icon/IconblueEngage.png" alt="EngageIcon">
                         <img src="../../assets/icon/IconwhiteEngage.png" alt="EngageIcon">
                         <label>My Answers</label>
                     </div>
-                    <div class="col-12 d-flex menuItem" (click)="tabName='Rate';activeNav = false;" routerLink="/user/rate" routerLinkActive="active-link">
-                        <img [class.visible]="tabName == 'Rate'" src="../../assets/icon/IconrateBlue.png" alt="RateIcon">
-                        <img src="../../assets/icon/IconwhiteRate.png" alt="RateIcon">
-                        <label>My Ratings</label>
-                    </div>
-                    <div class="col-12 d-flex menuItem" (click)="tabName='Community';activeNav = false;" routerLink="/user/community" routerLinkActive="active-link">
-                        <img [class.visible]="tabName == 'Community'" src="../../assets/icon/community.svg" alt="CommunityIcon">
-                        <img src="../../assets/icon/community_white.svg" alt="CommunityIcon">
-                        <label>Community</label>
-                    </div>
                 </div>
                 <!-- mt-auto -->
                 <div class="pb-3">
-                    <div class="col-12 d-flex menuItem line-top" (click)="tabName='Feedback';activeNav = false;" routerLink="/user/feedback" routerLinkActive="active-link">
+                    <div class="col-12 d-flex menuItem line-top" (click)="tabName='Feedback';activeNav = false;" routerLink="feedback" routerLinkActive="active-link">
                         <img [class.visible]="tabName == 'Feedback'" src="../../assets/icon/IconfeedbackBlue.png" alt="FeedbackIcon">
                         <img src="../../assets/icon/IconwhiteFeedback.png" alt="FeedbackIcon">
                         <label>Feedbacks</label>
-                    </div>
-                    <div class="col-12 d-flex menuItem" (click)="tabName='Settings';activeNav = false;" routerLink="/user/settings" routerLinkActive="active-link">
-                        <img [class.visible]="tabName == 'Settings'" src="../../assets/icon/IconsettingBlue.png" alt="settingIcon">
-                        <img src="../../assets/icon/IconwhiteSetting.png" alt="settingIcon">
-                        <label>Settings</label>
                     </div>
                 </div>
             </div>

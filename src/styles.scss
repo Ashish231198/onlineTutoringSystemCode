@@ -2,3 +2,51 @@
 .pointer{
     cursor: pointer;
 }
+:root {
+    --font-size-4: 0.27vw;
+    --font-size-5: 0.34vw;
+    --font-size-7: 0.48vw;
+    --font-size-8: 0.55vw;
+    --font-size-10: 0.69vw;
+    --font-size-12: 0.83vw;
+    --font-size-13: 0.90vw;
+    --font-size-14: 0.98vw;
+    --font-size-15: 1.05vw;
+    --font-size-16: 1.12vw;
+    --font-size-17: 1.18vw;
+    --font-size-18: 1.25vw;
+    --font-size-20: 1.38vw;
+    --font-size-22: 1.52vw;
+    --font-size-24: 1.66vw;
+    --font-size-25: 1.73vw;
+    --font-size-26: 1.80vw;
+    --font-size-28: 1.94vw;
+    --font-size-32: 2.23vw;
+    --font-size-38: 2.63vw;
+    --font-size-40: 2.77vw;
+    --font-size-48: 3.34vw;
+    --font-size-50: 3.47vw;
+    --font-size-56: 3.88vw;
+    --font-size-60: 4.16vw;
+    --font-size-64: 4.44vw;
+    --font-size-70: 4.86vw;
+    --font-size-80: 5.55vw;
+    --font-size-90: 6.25vw;
+  
+    --clr-primary: #0E1C82;
+    --clr-secondary: #992E88;
+    --clr-primary-hsl: 233 81% 28%;
+    --clr-secondary-hsl: 310 54% 39%;
+    --clr-300: #494646;
+  
+    --fs-200: 0.75rem;
+    --fs-300: 0.875rem;
+    --fs-400: 1rem;
+    --fs-500: 1.25rem;
+    --fs-600: 1.5rem;
+    --fs-700: 2rem;
+  
+    --bg-primary: hsl(216, 45%, 98%);
+    --bg-200: hsl(216, 45%, 98%);
+    --bg-gray: #BDBDBD;
+  }

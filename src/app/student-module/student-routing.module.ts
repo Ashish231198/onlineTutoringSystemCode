@@ -5,6 +5,8 @@ import { StudentProfileComponent } from './student-profile/student-profile.compo
 import { PostQuestionComponent } from './post-question/post-question.component';
 import { StudentHomeComponent } from './student-home/student-home.component';
 import { StudentMyQuesComponent } from './student-my-ques/student-my-ques.component';
+import { FeedbackComponent } from './feedback/feedback.component';
+import { RatingsComponent } from './ratings/ratings.component';
 
 const routes: Routes = [
   {
@@ -14,6 +16,8 @@ const routes: Routes = [
         { path: 'profile', component: StudentProfileComponent },
         { path: 'post-question', component: PostQuestionComponent },
         { path: 'my-question', component: StudentMyQuesComponent },
+        { path: 'feedback', component: FeedbackComponent },
+        { path: 'rating', component: RatingsComponent },
       ]
 
   }

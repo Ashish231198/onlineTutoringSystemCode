@@ -1,0 +1,103 @@
+<div class="container mt-3 mb-3 box">
+    <div class="row header">
+        <div class="col-12 mainHeading">
+            <h3>View Ratings</h3>
+        </div>
+        <!-- <div class="col-12 d-flex mt-2 secBlock">
+            <div class="d-flex align-items-center searchBy">
+                <label for="">Search By</label>
+                <select class="form-select">
+                    <option value="" selected disabled>Select Action</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <div class="searchHere">
+                <input type="text" class="form-control" placeholder="Search Here">
+            </div>
+            <div class="searchButton">
+                <button><i class="fa fa-search" style="color: white;" aria-hidden="true"></i></button>
+            </div>
+        </div> -->
+    </div>
+    <div class="ui-table body mt-4 max-100vw">
+        <div class="col-12">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">S.No</th>
+                        <th scope="col" style="width: 25%; text-align: left;">Course Name</th>
+                        <th style="width: 30%; text-align: left;" scope="col">Feedback</th>
+                        <th scope="col">Ratings</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of ratingList; let i= index;">
+                        <td>{{i+1}}</td>
+                        <td style="text-align: left; width: 25%;">
+                            <div class="custom-truncate-1">{{truncateText(item?.courseName,30)}}</div>
+                        </td>
+                        <td *ngIf="item.feedback" style="width: 30%; text-wrap: balance; text-align: left;" [title]="item?.feedback">
+                            <div class="custom-truncate-1" [innerHTML]="item.feedback"></div>
+                            <!-- {{truncateText(item?.feedback,200)}} -->
+                        </td>
+                        <td *ngIf="!item.feedback" style="width: 30%; text-wrap: balance; text-align: left;" [title]="item?.feedback">
+                            <div class="custom-truncate-1">N/A</div>
+                        </td>
+                        <td>*****</td>
+                        <!-- <td style="width:150px;min-width:150px;">
+                            <ngx-star-rating [(ngModel)]="ratingPoint[i]" [id]="'rating'" [disabled]="true"></ngx-star-rating>
+                        </td> -->
+                        <td class="action">
+                            <!-- <button><i class="fa fa-eye"></i></button> -->
+                            <button data-bs-toggle="modal" data-bs-target="#editRating" 
+                            (click)="assignItem(item)"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+                            <!-- <button><i class="fa fa-trash-can"></i></button> -->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- <div class="d-flex justitem?.feedbackify-content-between pagination">
+                <div class="left">
+                    <p>Showing 1 to 10 of 49 entries</p>
+                </div>
+                <div class="right">
+
+                </div>
+            </div> -->
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="editRating" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog" style="margin-top:15vh">
+      <div class="modal-content">
+        <div class="modal-header bg-pimary">
+          <h5 class="modal-title" id="exampleModalLabel">Edit Rating</h5>
+          <button #closeModal type="button" id="closeAttachmentModal" class="btn-close text-white"
+            data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="col-12">
+              <div class="d-flex align-items-center my-4">
+                <p class="fs-5 me-3 my-0 ff-tf">Rating: </p>
+                <!-- <ngx-star-rating [id]="'rate'" [(ngModel)]="courseRatingData.rating"></ngx-star-rating> -->
+              </div>
+              <div>
+                <label for="comment" class="fs-5 ff-tf mb-0">Comment:</label>
+                <textarea id="comment" class="form-control placeholder-fix" placeholder="Describe your experience here!"
+                 [(ngModel)]="courseRatingData.feedback" cols="30" rows="4"></textarea>
+              </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary"
+            data-bs-dismiss="modal">Cancel</button>
+            <button type="button" class="btn modal-submit"
+            (click)="editRating(closeModal)">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>

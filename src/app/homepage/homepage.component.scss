@@ -156,7 +156,7 @@ section {
 
 p {
     display: flex;
-    font-size: 23px;
+    font-size: 18px;
     color: #000000;
     text-align: justify;
     align-items: center;
@@ -478,11 +478,14 @@ input:focus {
 .activeBtn {
     border: 1px solid #3c9794;
     border-radius: 25px;
-    padding: 5px 30px;
+    padding: 5px 40px;
     background: #64f0eb;
 }
 .inactiveBtn {
-    padding: 5px 25px;
+    padding: 5px 40px;
     border-radius: 25px;
     border: 1px solid;
+}
+.input-group{
+    margin-top: 15px;
 }

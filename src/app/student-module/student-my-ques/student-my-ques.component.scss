@@ -6,3 +6,16 @@
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.08);
     margin-bottom: var(--font-size-50);
 }
+.completed{
+    background: green;
+    padding: 3px 15px;
+    border-radius: 10px;
+    color: white;
+
+}
+.pending {
+    background: lightslategray;
+    padding: 3px 15px;
+    border-radius: 10px;
+    color: white;
+}

@@ -17,7 +17,8 @@
             "tutorId" : "tutor001",
             "gender" : "Male",
             "subjectId" : "sub001",
-            "subjectName": "Programming"
+            "subjectName": "Programming",
+            "rating": 4.5
         },
         {
             "firstName": "Santosh",
@@ -34,7 +35,8 @@
             "tutorId" : "tutor002",
             "gender" : "Male",
             "subjectId" : "sub002",
-            "subjectName": "History"
+            "subjectName": "History",
+            "rating": 4.3
         },
         {
             "firstName": "Ashutosh",
@@ -51,7 +53,8 @@
             "tutorId" : "tutor003",
             "gender" : "Male",
             "subjectId" : "sub003",
-            "subjectName": "Cyber Security"
+            "subjectName": "Cyber Security",
+            "rating": 4.7
         },
         {
             "firstName": "Sankalp",
@@ -68,7 +71,8 @@
             "tutorId" : "tutor004",
             "gender" : "Male",
             "subjectId" : "sub004",
-            "subjectName": "Science"
+            "subjectName": "Science",
+            "rating": 4.1
         },
         {
             "firstName": "Ramesh",
@@ -85,7 +89,8 @@
             "tutorId" : "tutor005",
             "gender" : "Male",
             "subjectId": "sub005",
-            "subjectName": "Geography"
+            "subjectName": "Geography",
+            "rating": 4.3
         },
         {
             "firstName": "Rahul",
@@ -102,7 +107,8 @@
             "tutorId" : "tutor006",
             "gender" : "Male",
             "subjectId": "sub006",
-            "subjectName": "Law"
+            "subjectName": "Law",
+            "rating": 4.4
         }
     ]
 }

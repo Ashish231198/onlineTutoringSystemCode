@@ -1,0 +1,83 @@
+.container {
+    width: 96%;
+    margin: var(--font-size-25) var(--font-size-25) var(--font-size-90) var(--font-size-25);
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.08);
+}
+    .header {
+        h4 {
+            color: var(--black, #000);
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        p {
+            color: var(--secondary-gray, #999FAA);
+            font-size: 16px;
+        }
+    }
+
+    form {
+        label {
+            color: #000;
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        h5 {
+            color: #000;
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        textarea {
+            width: 99%;
+            border-radius: 12px;
+            padding: 15px;
+        }
+
+        .submit {
+            margin-right: var(--font-size-10);
+            border-radius: 8px;
+            background: #0E1C82;
+            border: none;
+            padding: var(--font-size-7) var(--font-size-40);
+            color: white;
+        }
+    }
+
+    .feedbackList {
+        ul {
+            display: flex;
+            padding-left: 0px;
+
+            li {
+                list-style: none;
+                margin-right: 15px;
+
+                div {
+                    p {
+                        background-color: #FCF7FB;
+                        border-radius: 50%;
+                        padding: var(--font-size-5) var(--font-size-13);
+                        fill: #FCF7FB;
+                        margin-left: var(--font-size-25);
+                        margin-right: var(--font-size-25);
+                        margin-bottom: var(--font-size-5);
+                    }
+
+                    span {
+                        color: #000;
+                        font-size: var(--font-size-12);
+                        margin-left: var(--font-size-20);
+                    }
+
+                    .activeNo {
+                        background: #EBD5E7;
+                        ;
+                    }
+                }
+            }
+        }
+    }

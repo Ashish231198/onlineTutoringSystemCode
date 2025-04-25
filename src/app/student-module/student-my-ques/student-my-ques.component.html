@@ -13,10 +13,11 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title"><b>Ques : </b> {{ques?.quesDescription}}</h5>
-                    <p class="card-text" (click)="selectedQues = ques"> <b>Ans : </b> {{ques?.answer | slice:0:200}}....
+                    <p *ngIf="ques?.answer" class="card-text" (click)="selectedQues = ques"> <b>Ans : </b> {{ques?.answer | slice:0:200}}....
                         <a class="text-primary pointer" data-bs-toggle="modal" data-bs-target="#exampleModal">Read
                             More</a> </p>
-                    <a> <b>Answer By : </b> {{ques?.tutorName}}</a>
+                    <a> <b>Status : </b> <span [ngClass]="ques?.answer ? 'completed' : 'pending'" >{{ques?.answer ? 'Completed' : 'Pending'}}</span></a><br>
+                    <a *ngIf="ques?.answer"> <b>Answer By : </b> {{ques?.tutorName}}</a>
                     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
             </div>

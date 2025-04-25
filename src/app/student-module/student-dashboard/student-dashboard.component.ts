@@ -9,7 +9,7 @@ import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/rou
   styleUrl: './student-dashboard.component.scss'
 })
 export class StudentDashboardComponent {
-  tabName : string = 'Home'
+  tabName : string = 'Dashboard'
   activeNav: boolean = false;
   userDetails:any;
   router = inject(Router)

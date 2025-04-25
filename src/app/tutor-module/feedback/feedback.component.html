@@ -1,0 +1,82 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-12 header">
+            <h4>Feedback</h4>
+            <p class="ff-tf-alt clr-gray">Please provide feedback to us</p>
+        </div>
+        <form class="body" [formGroup]="feedbackForm">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <label for="">Name</label>
+                    <input type="text" formControlName="name" readonly class="form-control">
+                    <small class="text-danger"
+                        *ngIf="feedbackForm.controls['name'].touched && feedbackForm.controls['name'].hasError('required')">
+                        Please enter name.
+                    </small>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <label for="">Email</label>
+                    <input type="email" formControlName="email" readonly class="form-control">
+                    <small class="text-danger"
+                        *ngIf="feedbackForm.controls['email'].dirty && feedbackForm.controls['email'].hasError('pattern')">
+                        Please enter valid email.
+                    </small>
+                    <small class="text-danger"
+                        *ngIf="feedbackForm.controls['email'].touched && feedbackForm.controls['email'].hasError('required')">
+                        Please enter email.
+                    </small>
+                </div>
+            </div>
+            <div class="col-12 mt-5">
+                <h5>How well will you rate this platform?</h5>
+                <div class="feedbackList mt-3">
+                    <ul>
+                        <li>
+                            <div>
+                                <p [ngClass]="feedbackForm.value.rate >= 1 ?'activeNo':''" (click)="setRate(1)"
+                                    style="margin-left: 0px; padding: 5px 14px !important;">1</p>
+                                <span style="margin-left: 0px !important">Not at all</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <p [ngClass]="feedbackForm.value.rate >= 2 ?'activeNo':''" (click)="setRate(2)">2</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <p [ngClass]="feedbackForm.value.rate >= 3 ?'activeNo':''" (click)="setRate(3)">3</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <p [ngClass]="feedbackForm.value.rate >= 4 ?'activeNo':''" (click)="setRate(4)">4</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <p [ngClass]="feedbackForm.value.rate >= 5 ?'activeNo':''" (click)="setRate(5)">5</p>
+                                <span>Extremely</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 mt-4 d-flex flex-column">
+                <label for="">Feedback</label>
+                <textarea cols="30" class="mt-2" formControlName="feedback" maxlength="2000"
+                    placeholder="Write your comment here" rows="7"></textarea>
+                <div>
+                    <small class="text-danger" style="font-weight: 600;"
+                        *ngIf="feedbackForm.controls['feedback'].touched && feedbackForm.controls['feedback'].hasError('required')">
+                        Please enter feedback.
+                    </small>
+                    <small style="float: right; margin-right: 20px;">{{2000 - feedbackForm.value?.feedback?.length}}/2000</small>
+                </div>
+                <div class="mt-3" style="text-align: right;">
+                    <button class="submit ff-bold-alt pb-1" (click)="submitFeedback()">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
